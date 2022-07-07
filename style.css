@@ -1,0 +1,233 @@
+*{
+  margin: 0;
+  padding: 0;
+  letter-spacing: 2px;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  line-height: 70px;
+}
+header .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+header li {
+  float: left;
+  list-style: none;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+  padding: 10px 20px;
+  line-height: 70px;
+}
+.header-left a {
+  font-size: 130%;
+}
+
+
+.top-page {
+  background-image: url(./fushimi-inari-shrine-1886975_1280.webp);
+  background-size: cover;
+  background-position: center;
+  padding: 300px 0;
+  color: white;
+  width: 100%;
+}
+.top-page .container {
+  margin-top: 50px;
+}
+.top-page h2,p{
+  text-align: center;
+}
+.top-page h2 {
+  font-size: 260%;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.top-page p {
+  font-size: 200%;
+}
+
+
+.top-sns {
+  background-color: rgb(95, 113, 114);
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+.top-sns .container {
+  width: 100%;
+}
+.top-sns a {
+  color: white;
+  font-size: 250%;
+  margin: 0 30px;
+  transition: all 0.5s;
+}
+.top-sns a:hover {
+  color: black;
+}
+.border {
+  display: inline-block;
+  border: 1px solid white;
+  width: 30%;
+}
+
+
+.home {
+  width: 100%;
+  padding: 60px;
+}
+.list-title h1 {
+  opacity: 0.7;
+  border-bottom: 1px solid rgb(95, 113, 114);
+}
+.heading {
+  width: auto;
+  padding: 50px;
+}
+.heading .container {
+  width: 30%;
+  margin: 0 auto;
+}
+.heading h2 {
+  border-bottom: 1px solid rgb(95, 113, 114);
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  font-weight: normal;
+  font-size: 160%;
+  text-align: center;
+}
+.heading small {
+  display: block;
+  font-size: 50%;
+  text-align: center;
+}
+.home-topic {
+  margin: 50px 0;
+}
+.home-topic .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+.home-text {
+  width: 45%;
+}
+.home-img {
+  width: 45%;
+  height: 70%;
+  display: inline-block;
+  position: relative;
+}
+.home-img:after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 0;
+  left: -1%;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+  transform: rotate(3deg);
+  background: #fff;
+  z-index: -1;
+}
+.home-text h3 {
+  font-size: 150%;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.home-text p {
+  word-break: break-all;
+  text-align: left;
+  line-height: 30px;
+}
+.home-img img {
+  width: 95%;
+}
+
+
+
+
+.plan-menu .plan-text {
+  margin-bottom: 50px;
+}
+.plans {
+  width: 80%;
+  margin: 0 auto 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.plan {
+  margin: 0 30px 0 30px;
+  color: black;
+  text-decoration: none;
+}
+.plan:hover {
+  text-decoration: underline;
+}
+.plan img {
+  width: 300px;
+  height: 75%;
+}
+.plan-txt {
+  font-size: 150%;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+
+input,textarea {
+  display: block;
+  width: 50%;
+  height: 35px;
+  border: 1px solid rgb(173, 175, 171);
+  border-radius: 8px;
+  margin: 10px auto 40px;
+}
+textarea {
+  height: 100px;
+}
+
+
+footer {
+  background-color:rgb(95, 113, 114);
+  color: white;
+  padding: 50px 0 10px;
+  margin-top: 100px;
+}
+.footer-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+}
